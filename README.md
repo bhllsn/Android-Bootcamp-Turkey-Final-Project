@@ -24,7 +24,7 @@ Son onboarding ekranında adınızı giriyorsunuz ve uygulamaya başlıyorsunuz.
 
 ## Uygulama içi görüntüler
 
-###Adınızı değiştirebileceğiniz bir bölüm:
+#### Adınızı değiştirebileceğiniz bir bölüm:
 
 <img width="540" alt="Google Pixel 3 Screenshot 0" src="https://user-images.githubusercontent.com/73333031/117551303-e1ab4380-b04d-11eb-9267-becc949e18aa.png">
 
