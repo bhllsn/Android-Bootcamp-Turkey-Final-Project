@@ -1,2 +1,8 @@
-# Android-Bootcamp-Turkey-Final-Project
-This final project application created for GDG Android Bootcamp Turkey Event. Expense Tracker Plus 🛒🩳💵💱💶💷
+# Expense-Tracker-Plus-Application!
+
+
+
+[Google Pixel 3 Screenshot 0](https://user-images.githubusercontent.com/73333031/117549364-b5d69080-b042-11eb-9f21-ebd007f63759.png)
+
+
+
