@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Expense Tracker Plus</string>
+
+    <string name="no_connection_warning">İnternete bağlı değilsiniz!</string>
+
+    <string name="description">Açıklaması</string>
+    <string name="expense_type_bill">Fatura</string>
+    <string name="expense_type_rent">Kira</string>
+    <string name="expense_type_food">Yiyecek</string>
+    <string name="expense_type_other">Diğer</string>
+
+    <string name="profile_title">Bilgileri Değiştir</string>
+    <string name="hint_name">İsminizi Giriniz</string>
+    <string name="gender_male">Erkek</string>
+    <string name="gender_female">Kadın</string>
+    <string name="gender_none">Belirtmek İstemiyorum</string>
+    <string name="button_save">Kaydet</string>
+    <string name="hello">Merhaba</string>
+    <string name="total_expense">Toplam harcamanız:</string>
+    <string name="add">EKLE</string>
+    <string name="add_expense_title">Harcama ekle</string>
+    <string name="amount">Tutar</string>
+    <string name="content_description__corner_image_button">Geri dönüş butonu</string>
+    <string name="content_description_center_image">Harcama iconu</string>
+    <string name="delete">SİL</string>
+    <string name="content_description_onboarding1_image">Giriş ekranı 2den icon</string>
+    <string name="on_boarding1_title">Karşınızda harcama takip uygulaması</string>
+    <string name="on_boarding1_subtitle">Artık karışıklığa son!</string>
+    <string name="on_boarding2_title">Kolayca kategorilendir</string>
+    <string name="on_boarding2_subtitle">Harcamalarınızı kategorilendirerek daha
+         kolay takip edin!</string>
+    <string name="on_boarding3_title">Farklı para birimleriyle takip et</string>
+    <string name="on_boarding3_subtitle">Harcamalarınızı TL, Dolar, Euro, Sterlin para birimleriyle sürekli güncellenen kurla takip edin !</string>
+    <string name="content_description_onboarding3_image">Onboarding3 ekranının iconu</string>
+    <string name="on_boarding3_hint">İsminizi buraya girebilirsiniz</string>
+    <string name="start">Başla</string>
+    <string name="content_description_splash_image">Açılış ekranından bir hareketli görsel</string>
+
+    <string name="splash_title"> HARCAMA<br />
+        TAKİP</string>
+    <string name="content_description_onboarding2_image">Onboarding2 ekranından bir görsel</string>
+    <string name="content_description_item_view">Harcama iconunun planı</string>
+    <string name="button_skip">Geç</string>
+    <string name="tl">TL</string>
+    <string name="dollar">Dollar</string>
+    <string name="euro">Euro</string>
+    <string name="sterlin">Sterlin</string>
+
+    <string name="currency_try">TL</string>
+    <string name="currency_usd">Dollar</string>
+    <string name="currency_eur">Euro</string>
+    <string name="currency_gbp">Sterlin</string>
+    <string name="expense_type_clothing">Giyecek</string>
+    <string name="DeleteAll">Tümünü sil</string>
+    <string name="content_description_splash_text">HARCAMA TAKİP</string>
+    <string name="receipt">Fatura</string>
+    <string name="rent">Kira</string>
+    <string name="other">Diğer</string>
+
+</resources>

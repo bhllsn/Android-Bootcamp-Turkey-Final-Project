@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.expense.expensedetail.ExpenseDetailFragment">
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:src="@drawable/back"
+        android:background="@android:color/transparent"
+        android:layout_margin="@dimen/margin_top_18"
+        android:layout_width="@dimen/back_button_size_45"
+        android:layout_height="@dimen/back_button_size_45"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/content_description__corner_image_button"/>
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="@dimen/detail_image_size_130"
+        android:layout_height="@dimen/detail_image_size_130"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textViewDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/content_description_center_image"/>
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:textSize="30sp"
+        android:layout_marginTop="@dimen/space_32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imageViewIcon"
+        app:layout_constraintBottom_toTopOf="@id/textViewCost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewCost"
+        android:textSize="@dimen/text_size_32"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/space_32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textViewDescription"
+        app:layout_constraintBottom_toTopOf="@id/buttonDelete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonDelete"
+        android:text="@string/delete"
+        app:cornerRadius="@dimen/corner_radius_20"
+        app:backgroundTint="@color/color1"
+        app:iconSize="@dimen/icon_size_40"
+        android:textSize="@dimen/text_size_22"
+        android:layout_marginTop="@dimen/margin_top_64"
+        android:layout_marginBottom="@dimen/margin_bottom_64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textViewCost"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

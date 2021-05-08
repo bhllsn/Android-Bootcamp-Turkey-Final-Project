@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="@dimen/padding_14"
+    android:paddingHorizontal="@dimen/padding_9"
+    tools:context=".screens.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cardview_height_124"
+        android:background="@drawable/cardview_style"
+        android:padding="@dimen/cardview_padding_21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewWelcomeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_17"
+            app:layout_constraintBottom_toTopOf="@id/textViewUserName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_22"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewWelcomeLabel" />
+
+        <TextView
+            android:id="@+id/textViewUserGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_8"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_22"
+            app:layout_constraintBottom_toBottomOf="@id/textViewUserName"
+            app:layout_constraintStart_toEndOf="@id/textViewUserName"
+            app:layout_constraintTop_toTopOf="@id/textViewUserName" />
+
+        <TextView
+            android:id="@+id/textViewExpenseLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_expense"
+            android:textSize="@dimen/text_size_17"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@id/textViewTotalExpense"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/textViewTotalExpense"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_22"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/textViewExpenseLabel"
+            app:layout_constraintTop_toBottomOf="@id/textViewExpenseLabel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RadioGroup
+        android:id="@+id/homeCurrencies"
+        android:weightSum="4"
+        android:checkedButton="@id/radioButtonTRY"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/space_4"
+        android:paddingHorizontal="@dimen/space_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayoutHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonTRY"
+            android:text="@string/tl"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color3"
+            android:textSize="@dimen/text_size_17"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonUSD"
+            android:text="@string/dollar"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color3"
+            android:textSize="@dimen/text_size_17"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonEUR"
+            android:text="@string/euro"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color3"
+            android:textSize="@dimen/text_size_17"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonGBP"
+            android:text="@string/sterlin"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color3"
+            android:textSize="@dimen/text_size_17"
+            />
+    </RadioGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewExpenses"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/homeCurrencies"
+        app:layout_constraintBottom_toTopOf="@id/delete_all"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/FABAddExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_end_9"
+        android:layout_marginBottom="@dimen/margin_bottom_17"
+        android:layout_marginStart="@dimen/margin_start_11"
+        android:text="@string/add"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_17"
+        app:backgroundTint="@color/color3"
+        app:icon="@drawable/add"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/delete_all" />
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/delete_all"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/DeleteAll"
+    android:layout_marginEnd="@dimen/margin_end_4"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:backgroundTint="@color/color1"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
