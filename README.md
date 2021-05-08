@@ -47,3 +47,13 @@ Sürekli değişen kur: 🥴
 
 Harcamalarınızı kategorilendirebilirsiniz: Neye ne kadar harcadığınızı buradan takip edip tutumluluk yapabilirsiniz. 🤑
 ![Kategorilendirme ekranı](https://user-images.githubusercontent.com/73333031/117550717-63996d80-b04a-11eb-9188-709ffa6a40d7.png)
+
+
+<img width="540" alt="Google Pixel 3 Screenshot 0" src="https://user-images.githubusercontent.com/73333031/117551303-e1ab4380-b04d-11eb-9267-becc949e18aa.png">
+<img width="540" alt="Google Pixel 3 Screenshot 1" src="https://user-images.githubusercontent.com/73333031/117551304-e2dc7080-b04d-11eb-8c56-2284526a4925.png">
+<img width="540" alt="Google Pixel 3 Screenshot 2" src="https://user-images.githubusercontent.com/73333031/117551306-e40d9d80-b04d-11eb-8d85-ada0921e521d.png">
+<img width="540" alt="Google Pixel 3 Screenshot 3" src="https://user-images.githubusercontent.com/73333031/117551308-e53eca80-b04d-11eb-9046-af48cf3d7ae8.png">
+<img width="540" alt="Google Pixel 3 Screenshot 4" src="https://user-images.githubusercontent.com/73333031/117551309-e66ff780-b04d-11eb-8b8c-4b1a8eb63597.png">
+<img width="540" alt="Google Pixel 3 Screenshot 5" src="https://user-images.githubusercontent.com/73333031/117551310-e7a12480-b04d-11eb-9bba-416383cb77fe.png">
+<img width="540" alt="Google Pixel 3 Screenshot 6" src="https://user-images.githubusercontent.com/73333031/117551302-dfe18000-b04d-11eb-8c66-27048ce559cd.png">
+
