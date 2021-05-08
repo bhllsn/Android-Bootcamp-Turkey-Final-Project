@@ -25,10 +25,11 @@ Son onboarding ekranında adınızı giriyorsunuz ve uygulamaya başlıyorsunuz.
 ## Uygulama içi görüntüler
 
 Adınızı değiştirebileceğiniz bir bölüm:
-![Ad değiştirme yeri](https://user-images.githubusercontent.com/73333031/117550699-511f3400-b04a-11eb-89d2-f79c42854d61.png)
+![Ad değiştirme yeri]<img width="270" alt="Google Pixel 3 Screenshot 0" src="https://user-images.githubusercontent.com/73333031/117551183-1f5b9c80-b04d-11eb-84a6-62f307709806.png">
+
 
 Renkli uyumlu bir tema:
-![Genel ekran1](https://user-images.githubusercontent.com/73333031/117550700-54b2bb00-b04a-11eb-8a25-5cd4df00ee15.png)
+![Genel ekran1]<img width="270" alt="Google Pixel 3 Screenshot 1" src="https://user-images.githubusercontent.com/73333031/117551227-6b0e4600-b04d-11eb-904f-13663abb194b.png">
 Harcamalarınız arasında gezinebilirsiniz.
 
 Farklı para birimlerinde harcamalarınızı görün:
