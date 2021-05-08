@@ -1,4 +1,4 @@
-# Expense-Tracker-Plus-Application
+# Expense Tracker Plus
 
 Bu uygulama GDG Android Bootcamp Türkiye etkinliği kapsamında yapılmıştır. O yayınlar izlenilerek yapılmıştır. Etkinliğin bitirme projesidir.
 
