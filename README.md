@@ -25,7 +25,8 @@ Son onboarding ekranında adınızı giriyorsunuz ve uygulamaya başlıyorsunuz.
 ## Uygulama içi görüntüler
 
 Adınızı değiştirebileceğiniz bir bölüm:
-![Ad değiştirme yeri]<img width="270" alt="Google Pixel 3 Screenshot 0" src="https://user-images.githubusercontent.com/73333031/117551183-1f5b9c80-b04d-11eb-84a6-62f307709806.png">
+![Ad değiştirme yeri]
+<img width="270" alt="Google Pixel 3 Screenshot 0" src="https://user-images.githubusercontent.com/73333031/117551183-1f5b9c80-b04d-11eb-84a6-62f307709806.png">
 
 
 Renkli uyumlu bir tema:
